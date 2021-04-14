@@ -3,7 +3,7 @@ provider "aws" {
   secret_key = "${var.secret_key}"
   region     = "${var.region}"
 
-  version = "~> 1.60"
+  version = "~> 3.36.0"
 }
 
 provider "tls" {
